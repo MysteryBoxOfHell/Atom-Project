@@ -42,7 +42,7 @@ table {
 	border-spacing: 0;
 }
 /*Barra de navegacion*/
-.navbar{display: flex; justify-content: center; align-items: center;}
+.navbar{display: flex; justify-content: center; align-items: center; padding: 30px}
 
 
 .content{padding: 0px 0;}
