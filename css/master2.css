@@ -42,7 +42,10 @@ table {
 	border-spacing: 0;
 }
 /*Barra de navegacion*/
-.navbar{display: flex; justify-content: center; align-items: center; padding: 30px}
+.navbar{display: flex; justify-content: center; align-items: center; padding: 50px}
+.navbar{height: 63px; background-color: #5D978B}
+.button{padding: 30px}
+.textb{color: #4C7A71; background: #C6E8E1;padding: 0 20px; text-decoration: none; text-transform: uppercase; font: 30px 'Stint Ultra Condensed'}
 
 
 .content{padding: 0px 0;}
