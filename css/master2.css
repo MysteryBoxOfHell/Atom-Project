@@ -41,6 +41,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*Barra de navegacion*/
+.navbar{display: flex; justify-content: center; align-items: center;}
+
+
 .content{padding: 0px 0;}
 .content{background: #AED6F1; color: #2874A6}
 /*Titulo*/
