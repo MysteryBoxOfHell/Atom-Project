@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/registro.css">
   </head>
   <body>
-    <form class="formulario">
+    <form class="formulario" action="ConexionR.php" method="post">
       <h1>Registrate</h1>
       <div class="contenedor">
         <div class="input-contenedor">
@@ -19,8 +19,19 @@
         </div>
 
         <div class="input-contenedor">
+          <i class="fas fa-id-card icon"></i>
+          <input type="number" placeholder="Identificacion">
+        </div>
+
+        <div class="input-contenedor">
+          <i class="fas fa-phone-alt icon"></i>
+          <input type="number" placeholder="Telefono">
+        </div>
+
+
+        <div class="input-contenedor">
           <i class="fas fa-envelope icon"></i>
-          <input type="text" placeholder="Correo">
+          <input type="email" placeholder="Correo">
         </div>
 
         <div class="input-contenedor">
