@@ -24,6 +24,6 @@
   if(!$ejecutar){
     echo "Hubo un Error";
   }else{
-    echo "Datos guardos Correctamente <br><a href=index.html>volver</a>";
+    echo "Datos Guardados Correctamente <br><a href=index.html>volver</a>";
   }
 ?>
