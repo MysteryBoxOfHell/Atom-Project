@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Que te ofrece ZIPCAR</title>
+    <script scr="jquery.js"> </script>
     <link rel="stylesheet" href="css/master2.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
@@ -18,30 +19,39 @@
     <!--Texto Invisible-->
     <p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</P>
     </section>
+    <script type="text/javascript" src="JavaScript/ServiJava.js"></script>
     <section>
       <nav class="navbar">
-        <button type="button" class="textb" style="margin:20px">
+        <!-- -->
+        <button type="button" class="textb" style="margin:20px" onclick="mostrarBMW();">
           <img src="Marcas/bmw.png" width="70" height="70">
           <p>BMW</p>
         </button>
-        <button type="button" class="textb" style="margin:20px">
+        <button type="button" class="textb" style="margin:20px" onclick="mostrarChevrolet();">
           <img src="Marcas/chevrolet.png" width="70" height="70">
           <p>Chevrolet</p>
         </button>
-        <button type="button" class="textb" style="margin:20px">
+        <button type="button" class="textb" style="margin:20px" onclick="mostrarHonda();">
           <img src="Marcas/honda.png" width="70" height="70">
           <p>Honda</p>
         </button>
-        <button type="button" class="textb" style="margin:20px">
+        <button type="button" class="textb" style="margin:20px" onclick="mostrarMazda();">
           <img src="Marcas/mazda.png" width="70" height="70">
           <p>Mazda</p>
         </button>
-        <button type="button" class="textb" style="margin:20px">
+        <button type="button" class="textb" style="margin:20px" onclick="mostrarRenault();">
           <img src="Marcas/renault.png" width="70" height="70">
           <p>Renault</p>
         </button>
-
       </nav>
+    </section>
+
+    <section class="content">
+        <div id="AutoBMW">Auto1</div>
+        <div id="AutoChevrolet">Auto2</div>
+        <div id="AutoHonda">Auto3</div>
+        <div id="AutoMazda">Auto4</div>
+        <div id="AutoRenault">Auto5</div>
     </section>
   </body>
 </html>>

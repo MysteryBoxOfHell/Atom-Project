@@ -50,6 +50,7 @@ table {
 
 .content{padding: 0px 0;}
 .content{background: #AED6F1; color: #2874A6}
+.content{text-align: center;}
 /*Titulo*/
 .titulo{text-align: center; font: 800 40px/1.7 'Roboto Condensed';}
 .titulo{height: 63px}
