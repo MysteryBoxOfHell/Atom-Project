@@ -59,8 +59,8 @@ table {
 
 /*Tablas de Autos*/
 #main-container{
-	margin: 150px auto;
-	width: 600px;
+	margin: 20px auto;
+	width: 1400px;
 }
 table{
 	background-color: white;
@@ -90,10 +90,17 @@ tr:hover td{
 .Titulo{text-align: center; font: 800 40px/1.7 'Roboto Condensed';}
 .title{margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase; text-align: left;}
 .tarifas{text-align: left;}
-.tarifas{background: url(../BMW/BMW.jpg) no-repeat right center; max-width: 1200px; height: 500px; color: #000}
+.tarifas2{text-align: left;}
+.tarifas3{text-align: left;}
+.tarifas4{text-align: left;}
+.tarifas5{text-align: left;}
+.tarifas{background: url(../Autos/BMW.jpg) no-repeat right center; max-width: 1200px; height: 500px;}
+.tarifas2{background: url(../Autos/Chevrolet.png) no-repeat right center; max-width: 1200px; height: 500px;}
+.tarifas3{background: url(../Autos/Honda.png) no-repeat right center; max-width: 1200px; height: 500px;}
+.tarifas4{background: url(../Autos/Mazda.png) no-repeat right center; max-width: 1200px; height: 500px;}
+.tarifas5{background: url(../Autos/Renault.png) no-repeat right center; max-width: 1200px; height: 500px;}
 .btn{border: 2px solid #1B2631; padding: 10px 40px; display: inline-block; text-decoration: none; color: #1B2631;}
 .contain{max-width: 1055px; margin: 0 auto;}
-.content2{padding: 300px 0;}
 
 
 /*------------------------------*/
