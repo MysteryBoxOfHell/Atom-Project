@@ -1,7 +1,7 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background: url(../Fondos/Camaro.jpg);
+  background: url(../Fondos/Autos.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -33,9 +33,14 @@ h1{
   color: #1a2537;
   font-size: 40px;
 }
+
+.btn{border: 2px solid #1B2631; padding: 10px 40px; display: inline-block; text-decoration: none; color: #1B2631; align-items: center}
 input[type="text"],
 input[type="password"],
-input[type="box"]{
+input[type="box"],
+input[type="number"],
+input[type="email"],
+input[type="date"]{
   font-size: 20px;
   width: 82%;
   padding: 10px;
