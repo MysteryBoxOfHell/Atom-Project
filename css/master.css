@@ -70,7 +70,7 @@ table {
 
 /*1. Layout*/
 
-body {text-align: center; font: 300 20px/1.7 'Roboto Condensed';}
+body {text-align: right; font: 400 20px/1.7 'Roboto Condensed';}
 .header {display: flex; justify-content: center; align-items: center;}
 .navbar{display: flex; justify-content: center; align-items: center;}
 .tarifas{text-align: left;}
@@ -112,4 +112,37 @@ p{margin-bottom: 40px}
 
 
 /*5. Form*/
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 24px;
+    border: 1px solid #ffffff;
+    border-radius: 98px;
+    background: #05fff3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#05fff3), to(#3740e6));
+    background: -moz-linear-gradient(top, #05fff3, #3740e6);
+    background: linear-gradient(to bottom, #05fff3, #3740e6);
+    text-shadow: #000000 1px 1px 0px;
+    font: normal normal bold 20px verdana;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: #06ffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#06ffff), to(#424dff));
+    background: -moz-linear-gradient(top, #06ffff, #424dff);
+    background: linear-gradient(to bottom, #06ffff, #424dff);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #039992;
+    background: -webkit-gradient(linear, left top, left bottom, from(#039992), to(#3740e6));
+    background: -moz-linear-gradient(top, #039992, #3740e6);
+    background: linear-gradient(to bottom, #039992, #3740e6);
+}
+
 /*6. Animation*/

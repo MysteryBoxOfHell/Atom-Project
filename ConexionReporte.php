@@ -11,13 +11,14 @@
     }
   }
   //recuperar variables
-  $nombre=$_POST['Nombre'];
   $identificacion=$_POST['Identificacion'];
-  $telefono=$_POST['Telefono'];
-  $email=$_POST['Email'];
-  $contraseña=$_POST['Contraseña'];
+  $Marca=$_POST['Marca'];
+  $Tipo_de_Falla=$_POST['Accidente'];
+  $Correo=$_POST['Correo'];
+  $Mensaje=$_POST['Mensaje'];
+  $Direccion=$_POST['Direccion'];
   //Sentencia
-  $sql="INSERT INTO datos VALUES('$nombre','$identificacion','$telefono','$email','$contraseña')";
+  $sql="INSERT INTO reportes VALUES('1','$identificacion','$Marca','$Tipo_de_Falla','$Correo','$Mensaje','$Direccion')";
   //Ejecutamos Sentencia
   $ejecutar=mysql_query($sql);
   //Verificamos Ejecucion
