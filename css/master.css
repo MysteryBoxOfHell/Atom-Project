@@ -70,7 +70,7 @@ table {
 
 /*1. Layout*/
 
-body {text-align: right; font: 400 20px/1.7 'Roboto Condensed';}
+body {text-align: center; font: 400 20px/1.7 'Roboto Condensed';}
 .header {display: flex; justify-content: center; align-items: center;}
 .navbar{display: flex; justify-content: center; align-items: center;}
 .tarifas{text-align: left;}
@@ -82,13 +82,14 @@ body {text-align: right; font: 400 20px/1.7 'Roboto Condensed';}
 .header {height: 450px; background: url(../Imagenes/dummy-header2.png) no-repeat center top; background-size: cover;}
 .navbar{height: 63px; background-color: #21618C}
 .navbar a{color: #fff; padding: 0 20px; text-decoration: none; text-transform: uppercase; font: 20px 'Stint Ultra Condensed'}
-.title{margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
+.title{margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;align-self: center;}
 p{margin-bottom: 40px}
 .btn{border: 2px solid #1B2631; padding: 10px 40px; display: inline-block; text-decoration: none; color: #1B2631}
 
 /*3. Parts of the web*/
 
 .content{padding: 80px 0;}
+.content{align-items: center}
 .who{background: #AED6F1; color: #2874A6}
 .who p {max-width: 1055px; margin: 0 auto;}
 .services p {max-width: 1300px; margin: 0 auto;}
