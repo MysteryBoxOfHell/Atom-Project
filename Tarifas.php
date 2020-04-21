@@ -10,23 +10,29 @@
     <link rel="stylesheet" href="css/tiempo.css">
   </head>
   <body>
-    <form class="formulario" action="ConexionReservar.php" method="post">
+    <form class="formulario" method="post">
       <h1>Consigue Tu ZIPCAR</h1>
       <p>Para conseguir tu auto solo debes ingresar la marca que deseas su modelo y el tiempo que lo vas a tener</p>
       <div class="contenedor">
         <div class="input-contenedor">
           <i class="fas fa-id-card icon"></i>
-          <input type="number" placeholder="Identificacion">
+          <input type="number" placeholder="Identificacion" name="Identificacion">
         </div>
 
         <div class="input-contenedor">
           <i class="fas fa-phone-alt icon"></i>
-          <input type="number" placeholder="Telefono">
+          <input type="number" placeholder="Telefono" name="Telefono">
         </div>
+
 
         <div class="input-contenedor">
           <i class="fas fa-car-side icon"></i>
-            <select class="box">
+          <input type="text" placeholder="Ingresa la marca del auto" name="marca">
+        </div>
+        <!--
+        <div class="input-contenedor">
+          <i class="fas fa-car-side icon"></i>
+            <select class="box" name: "marca">
               <option>Chevrolet</option>
               <option>BMW</option>
               <option>Honda</option>
@@ -34,25 +40,31 @@
               <option>Renault</option>
             </select>
         </div>
+      -->
 
 
         <div class="input-contenedor">
           <i class="fas fa-car icon"></i>
-          <input type="email" placeholder="Modelo">
+          <input type="text" placeholder="Modelo" name="modelo">
         </div>
         <div class="input-contenedor">
           <i class="far fa-calendar-alt icon"></i>
-          <input type="date" placeholder="Fecha de inicio">
+          <input type="date" placeholder="Fecha de inicio" name="DiaInicial">
         </div>
         <div class="input-contenedor">
           <i class="far fa-calendar-check icon"></i>
-          <input type="date" placeholder="Fecha final">
+          <input type="date" placeholder="Fecha final" name="DiaFinal">
         </div>
 
-        <input type="submit" value="Rentar Auto" class="buttom">
+        <input type="submit" name="Rentar" value="Rentar Auto" class="buttom">
         <p>Esperamos que puedas resolver todos tus problemas<p>
         <p>¿Deseas Volver?<a class="link" href="index.html">Volver al Inicio</a></p>
       </div>
     </form>
+
+    <?php
+      include("php/ConexionReserva.php");
+     ?>
+
   </body>
 </html>>

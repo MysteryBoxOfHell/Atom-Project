@@ -75,30 +75,15 @@ tr:hover td{
 }
 
 /*Barra de navegacion*/
+.navbar1{height: 63px; background-color: #21618C}
+.navbar1 a {color: #fff; padding: 0 20px; text-decoration: none; text-transform: uppercase; font: 20px 'Stint Ultra Condensed'}
+.navbar1{display: flex; justify-content: center; align-items: center;}
 
-body {text-align: center; font: 300 20px/1.7 'Roboto Condensed';}
-.header {display: flex; justify-content: center; align-items: center;}
+.navbar{height: 160px; background-color: #21618C}
+.navbar p {color: #000; padding: 0 20px; text-decoration: none; text-transform: uppercase; font: 20px 'Stint Ultra Condensed'}
 .navbar{display: flex; justify-content: center; align-items: center;}
-.tarifas{text-align: left;}
-.list-services{display: flex; justify-content: center; align-items: center;}
 
-.list-services figure{display: flex; justify-content: center; align-items: center; flex-flow: column;}
-
-/*2. Generit Item*/
-.header {height: 450px; background: url(../Imagenes/dummy-header2.png) no-repeat center top; background-size: cover;}
-.navbar{height: 63px; background-color: #21618C}
-.navbar a{color: #fff; padding: 0 20px; text-decoration: none; text-transform: uppercase; font: 20px 'Stint Ultra Condensed'}
-.title{margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
-p{margin-bottom: 40px}
-.btn{border: 2px solid #1B2631; padding: 10px 40px; display: inline-block; text-decoration: none; color: #1B2631}
-
-.content{padding: 0px 0;}
-.content{background: #AED6F1; color: #2874A6}
-.content{text-align: center;}
-
-
-.Titulo{text-align: center; font: 800 40px/1.7 'Roboto Condensed';}
-.title{margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase; text-align: left;}
+/*.title{margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase; text-align: left;}*/
 .tarifas{text-align: left;}
 .tarifas2{text-align: left;}
 .tarifas3{text-align: left;}
@@ -115,8 +100,12 @@ p{margin-bottom: 40px}
 
 /*------------------------------*/
 /*Titulo*/
+.Titulo{text-align: center; font: 800 40px/1.7 'Roboto Condensed';}
+.Titulo{height: 63px; background-color: #40EEA2}
 .titulo{text-align: center; font: 800 40px/1.7 'Roboto Condensed';}
 .titulo{height: 63px}
+.title{text-align: left; font: 800 40px/1.7 'Roboto Condensed';}
+.title{height: 63px}
 
 /*Servicios Parrafo incial*/
 .Parrafo {text-align: center; font: 400 20px/1.7 'Roboto Condensed';}

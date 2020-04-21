@@ -22,6 +22,10 @@ width: 250px;
 height: 50px;
 
 }
+.bad{height: 63px; background-color: #FF5733}
+.bad{display: flex; justify-content: center; align-items: center;}
+.ok{height: 63px; background-color: #00FF3A}
+.ok{display: flex; justify-content: center; align-items: center;}
 
 .formulario{
   background: #fff;
@@ -35,7 +39,9 @@ h1{
 }
 input[type="text"],
 input[type="password"],
-input[type="box"]{
+input[type="number"],
+input[type="email"]
+{
   font-size: 20px;
   width: 82%;
   padding: 10px;

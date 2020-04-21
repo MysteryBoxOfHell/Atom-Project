@@ -10,17 +10,25 @@
     <link rel="stylesheet" href="css/tiempo.css">
   </head>
   <body>
-    <form class="formulario">
+    <form class="formulario" method="post">
       <h1>Buscar</h1>
       <div class="contenedor">
         <div class="input-contenedor">
           <i class="fas fa-user icon"></i>
-          <input type="text" placeholder="Identificacion">
+          <input type="text" placeholder="Identificacion" name="ID">
 
         </div>
-        <a target="_blank" href="Tiempo2.html" class="btn">Buscar</a>
+        <input type="submit" name="register" value="Buscar" class="buttom">
         <p>En esta seccion puede ver los dias habiles que tiene para usar el auto<p>
+        <p>¿Deseas Volver?<a class="link" href="index.html">Volver al Inicio</a></p>
       </div>
+      <?php
+        include("php/mostrar.php");
+       ?>
     </form>
+
+
+
+
   </body>
 </html>>
