@@ -1,14 +1,14 @@
 <?php
 
-$inc=include("con_db.php");
+$inc=include("con_db0.php");
 
 if($inc){
   $ID= $_POST['ID'];
-  $consulta = "SELECT * FROM reservas WHERE Identifcacion = '".$ID."'";
+  $consulta = "SELECT * FROM datosreservas1 WHERE Identificacion = '".$ID."'";
   $resultado = mysqli_query($conectar, $consulta);
   if($resultado){
     while($row = $resultado -> fetch_array()){
-      $id = $row['Identifcacion'];
+      $id = $row['Identificacion'];
       $id1 = $row['Telefono'];
       $id2 = $row['Marca'];
       $id3 = $row['Modelo'];

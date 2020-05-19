@@ -1,6 +1,6 @@
 <?php
 
-  include("con_db.php");
+  include("con_db0.php");
   if(isset($_POST['reporte'])){
     if(strlen($_POST['ID'])>=1
     ){
@@ -11,7 +11,7 @@
       $men= trim($_POST['mensaje']);
       $dir= trim($_POST['Direccion']);
 
-      $consulta= "INSERT INTO reportes(Idenficiacion, Marca, Modelo, Email, Mensaje, Direccion) VALUES ('$ID','$marca','$modelo','$Email','$men','$dir')";
+      $consulta= "INSERT INTO datosreportes1(Idenficiacion, Marca, Modelo, Email, Mensaje, Direccion) VALUES ('$ID','$marca','$modelo','$Email','$men','$dir')";
       $resultado= mysqli_query($conectar,$consulta);
 
       if($resultado){

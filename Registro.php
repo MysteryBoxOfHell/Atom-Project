@@ -41,6 +41,7 @@
         <input type="submit" name="register" value="Registrate" class="buttom">
         <p>Al Registrate aceptas nuestras politicas y condiciones de uso<p>
         <p>¿Ya tienes una cuenta?<a class="link" href="Login.html">Iniciar Seccion</a></p>
+        <p>¿Seguir explorando la pagina?<a class="link" href="index.html">Volver al inicio</a></p>
       </div>
     </form>
 

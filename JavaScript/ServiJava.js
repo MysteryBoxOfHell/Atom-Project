@@ -1,35 +1,60 @@
 function mostrarBMW(){
   document.getElementById('AutoBMW').style.display="block";
+  document.getElementById('AutoBMW1').style.display="block";
   document.getElementById('AutoChevrolet').style.display="none";
+  document.getElementById('AutoChevrolet1').style.display="none";
   document.getElementById('AutoHonda').style.display="none";
+  document.getElementById('AutoHonda1').style.display="none";
   document.getElementById('AutoMazda').style.display="none";
+  document.getElementById('AutoMazda1').style.display="none";
   document.getElementById('AutoRenault').style.display="none";
+  document.getElementById('AutoRenault1').style.display="none";
 }
 function mostrarChevrolet(){
   document.getElementById('AutoBMW').style.display="none";
+  document.getElementById('AutoBMW1').style.display="none";
   document.getElementById('AutoChevrolet').style.display="block";
+  document.getElementById('AutoChevrolet1').style.display="block";
   document.getElementById('AutoHonda').style.display="none";
+  document.getElementById('AutoHonda1').style.display="none";
   document.getElementById('AutoMazda').style.display="none";
+  document.getElementById('AutoMazda1').style.display="none";
   document.getElementById('AutoRenault').style.display="none";
+  document.getElementById('AutoRenault1').style.display="none";
 }
 function mostrarHonda(){
   document.getElementById('AutoBMW').style.display="none";
+  document.getElementById('AutoBMW1').style.display="none";
   document.getElementById('AutoChevrolet').style.display="none";
+  document.getElementById('AutoChevrolet1').style.display="none";
   document.getElementById('AutoHonda').style.display="block";
+  document.getElementById('AutoHonda1').style.display="block";
   document.getElementById('AutoMazda').style.display="none";
+  document.getElementById('AutoMazda1').style.display="none";
   document.getElementById('AutoRenault').style.display="none";
+  document.getElementById('AutoRenault1').style.display="none";
 }
 function mostrarMazda(){
   document.getElementById('AutoBMW').style.display="none";
+  document.getElementById('AutoBMW1').style.display="none";
   document.getElementById('AutoChevrolet').style.display="none";
+  document.getElementById('AutoChevrolet1').style.display="none";
   document.getElementById('AutoHonda').style.display="none";
+  document.getElementById('AutoHonda1').style.display="none";
   document.getElementById('AutoMazda').style.display="block";
+  document.getElementById('AutoMazda1').style.display="block";
   document.getElementById('AutoRenault').style.display="none";
+  document.getElementById('AutoRenault1').style.display="none";
 }
 function mostrarRenault(){
   document.getElementById('AutoBMW').style.display="none";
+  document.getElementById('AutoBMW1').style.display="none";
   document.getElementById('AutoChevrolet').style.display="none";
+  document.getElementById('AutoChevrolet1').style.display="none";
   document.getElementById('AutoHonda').style.display="none";
+  document.getElementById('AutoHonda1').style.display="none";
   document.getElementById('AutoMazda').style.display="none";
+  document.getElementById('AutoMazda1').style.display="none";
   document.getElementById('AutoRenault').style.display="block";
+  document.getElementById('AutoRenault1').style.display="block";
 }

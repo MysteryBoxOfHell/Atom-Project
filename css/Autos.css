@@ -89,11 +89,21 @@ tr:hover td{
 .tarifas3{text-align: left;}
 .tarifas4{text-align: left;}
 .tarifas5{text-align: left;}
+.tarifas1{text-align: left;}
+.tarifas21{text-align: left;}
+.tarifas31{text-align: left;}
+.tarifas41{text-align: left;}
+.tarifas51{text-align: left;}
 .tarifas{background: url(../Autos/BMW.jpg) no-repeat right center; max-width: 1200px; height: 500px;}
+.tarifas1{background: url(../Autos/BMW1.png) no-repeat right center; max-width: 1200px; height: 500px;}
 .tarifas2{background: url(../Autos/Chevrolet.png) no-repeat right center; max-width: 1200px; height: 500px;}
+.tarifas21{background: url(../Autos/Chevrolet1.png) no-repeat right center; max-width: 1200px; height: 500px;}
 .tarifas3{background: url(../Autos/Honda.png) no-repeat right center; max-width: 1200px; height: 500px;}
+.tarifas31{background: url(../Autos/Honda1.png) no-repeat right center; max-width: 1200px; height: 500px;}
 .tarifas4{background: url(../Autos/Mazda.png) no-repeat right center; max-width: 1200px; height: 500px;}
+.tarifas41{background: url(../Autos/Mazda1.png) no-repeat right center; max-width: 1200px; height: 500px;}
 .tarifas5{background: url(../Autos/Renault.png) no-repeat right center; max-width: 1200px; height: 500px;}
+.tarifas51{background: url(../Autos/Renault1.png) no-repeat right center; max-width: 1200px; height: 500px;}
 .btn{border: 2px solid #1B2631; padding: 10px 40px; display: inline-block; text-decoration: none; color: #1B2631;}
 .contain{max-width: 1055px; margin: 0 auto;}
 

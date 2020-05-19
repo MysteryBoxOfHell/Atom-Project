@@ -1,6 +1,6 @@
 <?php
 
-  include("con_db.php");
+  include("con_db0.php");
   if(isset($_POST['register'])){
     if(strlen($_POST['nombre'])>=1 &&strlen($_POST['ID'])>=1 &&
     strlen($_POST['Telefono'])>=1 &&strlen($_POST['correo'])>=1 &&
@@ -12,7 +12,7 @@
       $Email= trim($_POST['correo']);
       $Contra= trim($_POST['contraseña']);
 
-      $consulta= "INSERT INTO datos(Nombre, Identificacion, Telefono, Email, Contraseña) VALUES ('$name','$ID','$Tel','$Email','$Contra')";
+      $consulta= "INSERT INTO datosregistro1(Nombre, Identificacion, Telefono, Correo, Contraseña) VALUES ('$name','$ID','$Tel','$Email','$Contra')";
       $resultado= mysqli_query($conectar,$consulta);
 
       if($resultado){

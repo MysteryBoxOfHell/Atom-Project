@@ -1,6 +1,6 @@
 <?php
 
-  include("con_db.php");
+  include("con_db0.php");
   if(isset($_POST['Rentar'])){
     if(strlen($_POST['Identificacion'])>=1 &&
     strlen($_POST['Telefono'])>=1
@@ -12,7 +12,7 @@
       $DI= trim($_POST['DiaInicial']);
       $DF= trim($_POST['DiaFinal']);
 
-      $consulta= "INSERT INTO reservas(Identifcacion, Telefono, Marca, Modelo, DiaInicio, DiaFinal) VALUES ('$ID','$Tel','$Marca','$Modelo','$DI','$DF')";
+      $consulta= "INSERT INTO datosreservas1(Identificacion, Telefono, Marca, Modelo, DiaInicio, DiaFinal) VALUES ('$ID','$Tel','$Marca','$Modelo','$DI','$DF')";
       $resultado= mysqli_query($conectar,$consulta);
 
       if($resultado){
