@@ -73,7 +73,10 @@ tr:hover td{
 	background-color: #369681;
 	color: white;
 }
+/*CABECERA*/
 
+.header {display: flex; justify-content: center; align-items: center;}
+.header {height: 450px; background: url(../Imagenes/dummy-header2.png) no-repeat center top; background-size: cover;}
 /*Barra de navegacion*/
 .navbar1{height: 63px; background-color: #21618C}
 .navbar1 a {color: #fff; padding: 0 20px; text-decoration: none; text-transform: uppercase; font: 20px 'Stint Ultra Condensed'}

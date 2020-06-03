@@ -1,0 +1,140 @@
+/*
+Guia de Estilos
+0. Reset
+1. Layout
+2. Generit Item
+3. Parts of the web
+4. List
+5. Form
+6. Animation
+*/
+
+/*COLORS
+color1 => #2c3e50;
+color2 => #34459e;
+color3 => #3498db;
+color4 => #fff;
+*/
+
+/*0. Reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*1. Layout*/
+
+body {text-align: center; font: 200 25px/1.7 'Roboto Condensed';}
+.header {display: flex; justify-content: center; align-items: center;}
+.navbar{display: flex; justify-content: center; align-items: center;}
+.tarifas{text-align: left;}
+
+.list-services{display: flex; justify-content: center; align-items: center;}
+
+.list-services figure{display: flex; justify-content: center; align-items: center; flex-flow: column;}
+
+/*2. Generit Item*/
+.header {height: 450px; background: url(../Imagenes/dummy-header2.png) no-repeat center top; background-size: cover;}
+.navbar{height: 63px; background-color: #21618C}
+.navbar a{color: #fff; padding: 0 20px; text-decoration: none; text-transform: uppercase; font: 20px 'Stint Ultra Condensed'}
+.title{margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
+p{margin-bottom: 40px; font: 300 25px/1.7 }
+.tarifas{height: 700px}
+
+
+/*3. Parts of the web*/
+
+.content{padding: 40px 0;}
+.content2{padding: 60px 60px;}
+.who{background: #AED6F1; color: #2874A6}
+.who p {max-width: 1055px; margin: 0 auto; font: 40px 'Stint Ultra Condensed'}
+.services p {max-width: 2500px; margin: 0 auto;}
+
+.services{background: #A4CAE4; color: #2874A6}
+
+.contain{max-width: 1255px; margin: 0 auto;}
+.tarifas p {max-width: 550px; font: 40px 'Stint Ultra Condensed'; text-align: justify;}
+
+
+.Localizacion{color: #34495e; padding-bottom: 50px;}
+.Localizacion .map img{max-width: 100%; width: 100%}
+
+
+/*4. List*/
+
+.list-services figure { position: relative; width: 250px; height: 190px;}
+.list-services
+.list-services img{padding: 1000px}
+.caja {
+font-family: sans-serif;
+padding: 20px;
+border-radius: 35px;
+
+border: 2px solid #5878ca;
+height: 450px;
+
+color: #ffffff;
+background:#ADE5EC
+}
+.caja p{color: #000000; text-align: justify;}
+
+
+  .list-services li { padding: 80px 5px; }
+  .list-services figcaption { position: relative; left: 0; right: 0; bottom: 0px; font: 40px 'Stint Ultra Condensed'}
+  .list-services p { position: relative; left: 0; right: 0; bottom: 0px; font: 30px 'Stint Ultra Condensed'}
+
+.btn1{border: 5px solid #1B2631; padding: 20px; display: inline-block; color: #1B2631; font: 40px;
+  position: absolute;
+  left: 300px
+}
+.Localizacion{background: #AED6F1; color: #2874A6}
+  .Localizacion p{font: 50px 'Stint Ultra Condensed'}
+.Ofertas{background: #A4CAE4; color: #2874A6}
+  .Ofertas p{font: 30px 'Stint Ultra Condensed'; margin-bottom: 20px}
+/*5. Form*/
+/*6. Animation*/

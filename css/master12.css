@@ -14,7 +14,6 @@ color1 => #2c3e50;
 color2 => #34459e;
 color3 => #3498db;
 color4 => #fff;
-
 */
 
 /*0. Reset*/
@@ -70,10 +69,11 @@ table {
 
 /*1. Layout*/
 
-body {text-align: center; font: 300 20px/1.7 'Roboto Condensed';}
+body {text-align: center; font: 200 25px/1.7 'Roboto Condensed';}
 .header {display: flex; justify-content: center; align-items: center;}
 .navbar{display: flex; justify-content: center; align-items: center;}
 .tarifas{text-align: left;}
+
 .list-services{display: flex; justify-content: center; align-items: center;}
 
 .list-services figure{display: flex; justify-content: center; align-items: center; flex-flow: column;}
@@ -82,34 +82,38 @@ body {text-align: center; font: 300 20px/1.7 'Roboto Condensed';}
 .header {height: 450px; background: url(../Imagenes/dummy-header2.png) no-repeat center top; background-size: cover;}
 .navbar{height: 63px; background-color: #21618C}
 .navbar a{color: #fff; padding: 0 20px; text-decoration: none; text-transform: uppercase; font: 20px 'Stint Ultra Condensed'}
-.title{margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
-p{margin-bottom: 40px}
-.btn{border: 2px solid #1B2631; padding: 10px 40px; display: inline-block; text-decoration: none; color: #1B2631}
+.title{margin-bottom: 100px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
+p{margin-bottom: 40px; font: 300 25px/1.7 }
+.tarifas{height: 550px}
+
 
 /*3. Parts of the web*/
-
-.content{padding: 80px 0;}
-.who{background: #AED6F1; color: #2874A6}
-.who p {max-width: 1055px; margin: 0 auto;}
-.services p {max-width: 1300px; margin: 0 auto;}
-
-.services{background: #76D7C4; color: #239B56}
-.tarifas{background: url(../Imagenes/dummy-tarifas2.png) no-repeat center top; background-size: cover; color: #1B2631}
-.contain{max-width: 1055px; margin: 0 auto;}
-.tarifas p {max-width: 450px}
-
-.Localizacion{color: #34495e; padding-bottom: 0;}
-.Localizacion .map img{max-width: 100%; width: 100%}
-
-
+.imagenC{position: absolute; top: 550px; right: 100px}
+.content{padding: 40px 0;}
+.services{background: #A4CAE4; color: #2874A6}
+.contain{max-width: 1255px; margin: 0 auto;}
+.tarifas p {width: 550px; font: 40px 'Stint Ultra Condensed'; text-align: justify;}
 /*4. List*/
 
-.list-services figure { position: relative; width: 150px; height: 190px;}
-  .list-services figure:after {content: ""; position: absolute; top: 0; left: 0; border-radius: 50%; z-index: 0; background: #fff; width: 150px; height: 150px;}
-    .list-services img {position: relative; z-index: 1;}
-  .list-services li { padding: 0 30px; }
-  .list-services figcaption { position: relative; left: 0; right: 0; bottom: -40px;}
+.list-services figure { position: relative; width: 250px; height: 190px;}
+.list-services
+.list-services img{padding: 1000px}
+.content2{height: 600px}
+.caja {
+font-family: sans-serif;
+padding: 20px;
+border-radius: 35px;
 
+border: 2px solid #5878ca;
+color: #ffffff;
+background:#ADE5EC
+}
+.caja p{color: #000000; text-align: justify;}
+
+
+  .list-services li { padding: 80px 5px; }
+  .list-services figcaption { position: relative; left: 0; right: 0; bottom: 0px; font: 40px 'Stint Ultra Condensed'}
+  .list-services p { position: relative; left: 0; right: 0; bottom: 0px; font: 28px 'Stint Ultra Condensed'}
 
 /*5. Form*/
 /*6. Animation*/
